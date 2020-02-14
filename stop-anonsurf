@@ -1,0 +1,13 @@
+printf "[ i ] ZATRZYMYWANIE ANONSURF... CZEKAJ!\n\n"
+sleep 1
+sudo anonsurf change
+sudo anonsurf stop
+printf "[ i ] GOTOWE!\n"
+sleep 2
+exit
+
+
+
+
+
+

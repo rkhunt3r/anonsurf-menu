@@ -1,0 +1,8 @@
+printf "[ i ] URUCHAMIANIE ANONSURF... CZEKAJ!\n\n"
+sleep 1
+sudo anonsurf start
+sudo anonsurf change
+printf "[ i ] GOTOWE!\n"
+sleep 2
+exit
+
