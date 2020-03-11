@@ -28,7 +28,7 @@ case $opcja in
 1) clear;sudo start-anonsurf;menu;;
 2) clear;sudo stop-anonsurf;menu;;
 3) exit;;
-*) printf "\e[91m[ i ] ZŁA OPCJA! SRRÓBUJ PONOWNIE...";sleep 1.2;menu;;
+*) printf "\e[91m[ i ] ZŁA OPCJA! SRRÓBUJ PONOWNIE...\e[0m";sleep 1.2;menu;;
 esac 
 }
 
